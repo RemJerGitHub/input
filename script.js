@@ -8,7 +8,6 @@ Vue.createApp({
     methods:{
         verifHello(){
            if (this.classe=="hello"){
-                console.log("cas true");
                 return true;                
             } else {
                 return false;
@@ -16,7 +15,6 @@ Vue.createApp({
         },
         verifWorld(){
             if (this.classe=="world"){
-                console.log("cas true");
                 return true;                 
             } else {
                 return false;
